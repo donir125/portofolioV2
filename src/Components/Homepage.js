@@ -11,14 +11,14 @@ class Homepage extends Component {
               <img
                 className="profile-img"
                 src="images/DSC_5211-00.jpg"
-                alt="Ismail"
+                alt="Belyse"
               />
             </div>
             <div className="banner-text">
-              <h1>pharmacist</h1>
+              <h1>Belyse</h1>
               <hr />
               <p>
-                I am Nihorimbere Belyse, experienced member of the healthcare  with skills in time management and interpersonal communication
+                I am Nihorimbere Belyse , experienced member of the healthcare  with skills in time management and interpersonal communication
                 ; I have extensive knowledge in filling prescriptions, reviewing medical history records and identifying potential drug interactions
            
               </p>
