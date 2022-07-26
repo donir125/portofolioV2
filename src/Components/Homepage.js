@@ -20,8 +20,7 @@ class Homepage extends Component {
               <p>
                 I am Nihorimbere Belyse, experienced member of the healthcare  with skills in time management and interpersonal communication
                 ; I have extensive knowledge in filling prescriptions, reviewing medical history records and identifying potential drug interactions
-                ; I’m passionate about making people feel better by providing them with quality care through medication therapy management.
-                As a skilled pharmaceutical technician ,I offer my expertise to help patients get back on their feet after surgery or injury while still ensuring safety protocols are met.
+                
               
               </p>
               <div className="social-links">
