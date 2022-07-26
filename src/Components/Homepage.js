@@ -23,55 +23,14 @@ class Homepage extends Component {
                 
               
               </p>
-              <div className="social-links">
-                {/* LinkedIn */}
-                <a
-                  href="http://facebook.com/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  {" "}
-                  <i
-                    className="fa fa-facebook-official"
-                    aria-hidden="true"
-                  ></i>{" "}
-                </a>
-                {/* LinkedIn */}
-                <a
-                  href="https://twitter.com/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  {" "}
-                  <i
-                    className="fa fa-twitter-square"
-                    aria-hidden="true"
-                  ></i>{" "}
-                </a>
-                {/* LinkedIn */}
-                <a
-                  href="https://github.com/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  {" "}
-                  <i
-                    className="fa fa-github-square"
-                    aria-hidden="true"
-                  ></i>{" "}
-                </a>
-                {/* LinkedIn */}
-                <a
-                  href="https://www.linkedin.com/in//"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  {" "}
-                  <i
-                    className="fa fa-linkedin-square"
-                    aria-hidden="true"
-                  ></i>{" "}
-                </a>
+              
+                 
+
+             
+
+                  
+                
+                
               </div>
             </div>
           </Cell>
