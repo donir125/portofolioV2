@@ -15,7 +15,7 @@ class Homepage extends Component {
               />
             </div>
             <div className="banner-text">
-              <h1>Belyse</h1>
+              <h1>--</h1>
               <hr />
               <p>
                 I am Nihorimbere Belyse , experienced member of the healthcare  with skills in time management and interpersonal communication
