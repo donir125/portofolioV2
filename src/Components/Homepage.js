@@ -4,7 +4,7 @@ import { Grid, Cell } from "react-mdl";
 class Homepage extends Component {
   render() {
     return (
-      <div style={{ width: "100%", margin: "auto", overflow-y: "scroll" }}>
+      <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="homepage-grid">
           <Cell col={12}>
             <div className="profile-img-border">
