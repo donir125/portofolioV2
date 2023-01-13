@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Cell } from "react-mdl";
+import { Grid, Cell, ListItemContent } from "react-mdl";
 import Education from "./Education";
 import Experience from "./Experience";
 import Skills from "./Skills";
@@ -11,114 +11,184 @@ class Resume extends Component {
         <Grid className="resume-gird">
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
-              <img
-                src="images/DSC_5211-00.jpg"
+              <img class= "col-8 col-lg-2 profile-picture  img-fluid"
+                src="images/don5.jpeg"  
                 alt="avatar"
-                style={{ height: "250px" }}
+                //style={{ height: "250px" }}
               />
             </div>
 
-            <h2 style={{ paddingTop: "1em" }}>Nihorimbere Belyse</h2>
-            <h4 style={{ color: "grey" }}>Pharmacist</h4>
+            <h2 style={{ paddingTop: "1em" }}>Irakoze Don De Dieu</h2>
+            <h4 style={{ color: "green" }}>Computer engineer</h4>
             <hr style={{ borderTop: "2px solid #3FA5B2", width: "50%" }} />
             <p style={{ textAlign: "justify" }}>
-              This is Nihorimbere Belyse. I’m an enthusiastic, responsible, self-motivated and hard-working person.
+              This is Irakoze Don, i'm responsible,
+              <br></br>
+               Self-motivated and hard-working person.
+              <br></br>
+
               I’m able to work well under pressure.
             </p>
             <hr style={{ borderTop: "2px solid #169987", width: "50%" }} />
-            <h5>Address</h5>
-            <p>Moscow </p>
-            <h5>Phone</h5>
-            <p>+7 930 965-63-34</p>
-            <h5>Email</h5>
-            <p>nihorimberebelyse2020@gmail.com</p>
-            <h5>Ms office</h5>
-            <a
+            <h5 style={{ color: "green" }}>Address</h5>
+            <p> City: Moscow </p>
+            <p> ZIP: 123423 </p>
+
+
+            <h5 style={{ color: "green" }}>Phone</h5>
+            <p>+7 977 533-93-16</p>
+            <h5 style={{ color: "green" }}> Find more about me</h5>
+            <a class="button1"
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: "none" }}
-              href="https://www.office.com/"
+              href="https://cvversion1.vercel.app/"
             >
-              Microsoft office word 
+              HERE 
             </a>
-            <h5>Download CV</h5>
-            <a
+            <h5 style={{ color: "green" }}>Download CV</h5>
+            <a class="button1"
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: "none" }}
-              href="https://drive.google.com/file/d/1V5HaD1K4xJGXIoyvvItxXeOP_Xc4DRHo/view?usp=sharing"
+              href="https://drive.google.com/file/d/16okhqD1VmsrohnQuQNKxsuqHV_WTZl_9/view?usp=sharing"
             >
               My Update CV
             </a>
+            <h5 style={{ color: "green" }}>Email</h5>
+            <p><a class="button1" href="mailto:donir23197@gmail.com">donir23197@gmail.com</a></p>
+           
+            
           </Cell>
           <Cell className="resume-right-col" col={8}>
-            <h2>Experience</h2>
+            <div class="button4">
+
+            <h2 style={{ color: "green" }}>Experience</h2>
             <Experience
-              startYear={"February 2022"}
+              startYear={"October 2018"}
               endYear={"Present"}
-              jobName={"Pharmacist"}
-              companyName={"Company pgirard"}
+              jobName={"Web Developper "}
+              companyName={"Metropolitan Coorporation"}
               jobDesc={
                 [
-                  "I am Nihorimbere Belyse, experienced member of the healthcare  with skills in time management and interpersonal communication",
-                  "I have extensive knowledge in filling prescriptions, reviewing medical history records and identifying potential drug interactions",
-                  "I’m passionate about making people feel better by providing them with quality care through medication therapy management.",
-                  "As a skilled pharmaceutical technician I offer my expertise to help patients get back on their feet after surgery or injury while still ensuring safety protocols are met."
+                  "I am Irakoze Don, experienced member of the IT Domain with skills in onetime, devops and fullstake development",
+                  "I create successful responsive websites that are fast, easy to use,and built with best practices.",
+                  "The main area of my expertise is front-end development, HTML, CSS, JS, building small and medium web apps, custom plugins,features, animations, and coding interactive layouts.",
+                  "I also have full-stack developer experience with popular open-source CMS like (WordPress, Drupal, Magento, Keystone.js and others) ."
+                  
                   
                 ]
               }
             />
             <Experience
-              startYear={"may 2021"}
-              endYear={"june 2021"}
+              startYear={"May 2020"}
+              endYear={"June 2020"}
               duration={2}
-              jobName={"Internship (Remote)"}
+              jobName={"French High School (Server connection)"}
               companyName={"Office Skills"}
               jobDesc={[
-                "Microsoft office Word",
-                "Microsoft office Excel"
-                
+                "Microsoft office Word , Microsoft office Excel",
+                "JavaScript , Java",
+                "C++ , C# ,   PHP",
+                "1C",
+                "MySQl"
               ]
               }
             />
             <Experience
-              startYear={"December 2020"}
-              endYear={"January 2021"}
-              duration={2}
-              jobName={"Intership"}
-              companyName={"Emu"}
+              startYear={"JUN 2021"}
+              endYear={"AUGUST 2021"}
+              duration={3}
+              jobName={"Software Developper"}
+              companyName={"NatiFlanguage"}
               jobDesc={
                 [
-                 "Customer service.", 
-                 "Verbal and written communication.",
-                 "Problem - solving and critical thinking.",
-                 "Strong knowledge of medical and medication terminology.",
-                  "Attention to detail.",
-                  "I learnt lot of tech things from this company I now had a chance to test my knowledge in the real world through an internship."]
+                  <ListItemContent>
+                 <li>Customer service </li> 
+                 <li>Identify, understand and analyze the specific needs of a potential client</li>
+                 <li>Design and programming of a website, a module or a specific development</li>
+                 <li>The ability to develop several verification tests</li>
+                 <li>Attention to detail</li>
+                 <li>Fix bugs</li>
+                 <br></br>
+                 "I learnt lot of tech things from this company I now had a chance to test my knowledge in the real world through an fullstack development."
+
+                  </ListItemContent>
+                ]
               }
             />
+             <Experience
+              startYear={"May 2020"}
+              endYear={"June 2020"}
+              duration={2}
+              jobName={"French High School (Server connection)"}
+              companyName={"Office Skills"}
+              jobDesc={[
+                "Microsoft office Word , Microsoft office Excel",
+                "JavaScript , Java",
+                "C++ , C# ,   PHP",
+                "1C",
+                "MySQl"
+
+
+            
+              ]
+              }
+            />
+
+            
+            </div> 
+          
+            
            
          
+            <div class="button5">
 
-            <hr style={{ borderTop: "3px solid #0F7959" }} />
-            <h2>Education</h2>
-            <Education
-              startYear={2017}
-              endYear={2020}
-              schoolName={"рудн"}
-              degreeName={"Pharmaceutical Sciences"}
-            />
+              <hr style={{ borderTop: "3px solid #0F7959" }} />
+              <h2 style={{ color: "green" }} >Education</h2>
+              <Education
+                startYear={2018}
+                endYear={2019}
+                
+                schoolName={"Московский энергетический институт (МЭИ)"}
+                degreeName={"Russian Language"}
+              />
+              <Education
+                startYear={2019}
+                endYear={2023}
+                schoolName={"Московский Технический Университет Связи и Информатики (МТУСИ)"}
+                degreeName={"Informatics Sciences"}
+              />
+
+
+            </div>
+
+            <div class="button2">
             <hr style={{ borderTop: "3px solid #136E57" }} />
-            <h2>Skills</h2>
-            <Skills skill={"Ms word"} progress={90} />
-            <Skills skill={"Excel"} progress={80} />
-            <Skills skill={"access"} progress={75} />
-            <Skills skill={"OutLook"} progress={96} />
+            <h2 style={{ color: "green" }} >Skills</h2>
+            <Skills skill={"Ms office"} progress={75} />
+            <Skills skill={"java"} progress={71} />
+            <Skills skill={"Python"} progress={70} />
+            <Skills skill={"Mysql"} progress={74} />
+            <Skills skill={"HTML"} progress={85} />
+            <Skills skill={"CSS"} progress={81} />
+            <Skills skill={"JavaScript"} progress={68} />
+            <Skills skill={"TypeScript"} progress={75} />
+            <Skills skill={"Scala"} progress={73} />
+            <Skills skill={"BigData"} progress={68} />
+
+
+            </div>
             
-            <hr style={{ borderTop: "3px solid #04A7AC" }} />
-            <h2>Achievments</h2>
-            <h6>1th at  typing Contest (03/2021)</h6>
-            <h6>2th  at communication skills Contest (04/2022)</h6>
+            
+            <div class="button3"> 
+              <hr style={{ borderTop: "3px solid #04A7AC" }} />
+              <h2 style={{ color: "green" }} >Achievments</h2>
+              <h6>Udemy's Certificate in Fullstake development (04/2021)</h6>
+              <h6>3th place at typing Contest (09/2021)</h6>
+              <h6>2th at communication skills Contest (04/2022)</h6>
+              <h6>3th place at most topic intervention at community Skills conferences  (06/2022)</h6>
+            </div>
           </Cell>
         </Grid>
       </div>

@@ -25,22 +25,27 @@ class Projects extends Component {
         "https://github.com/"
       );
     };
+    this.calculator1 = () => {
+      window.location.assign(
+        "https://github.com/donir125/UI-UX-Project"
+      );
+    };
     this.calculator = () => {
       window.location.assign(
-        "https://github.com/"
+        "https://ui-ux-project-orcin.vercel.app/"
       );
     };
     this.portfolio = () => {
       window.location.assign("https://github.com/");
     };
     this.portfoliolive = () => {
-      window.location.assign("https://ookos.ru/");
+      window.location.assign("https://www.adrianflux.co.uk/blog/");
     };
     this.ecommerce = () => {
-      window.location.assign("https://github.com/");
+      window.location.assign("https://counter-ux-ui.vercel.app/counter");
     };
     this.leavemangement = () => {
-      window.location.assign("https://github.com/");
+      window.location.assign("https://www.qualitysolicitors.com/");
     };
     this.crudapplication = () => {
       window.location.assign(
@@ -49,8 +54,15 @@ class Projects extends Component {
     };
     this.facebook = () => {
       window.location.assign(
-        "https://github.com"
+        "https://github.com/donir125"
       );
+      
+    };
+    this.figma = () => {
+      window.location.assign(
+        "https://github.com/donir125/counter_UX-UI"
+      );
+      
     };
     this.toggleCategories = () => {
       if (this.state.activeTab === 0) {
@@ -60,15 +72,15 @@ class Projects extends Component {
             <Card shadow={5} className="project-item">
               <CardTitle
                 style={{
-                  color: "#333",
+                  color: "yellow",
                   height: "180px",
-                  background: "url(images/chat.jpg) center / cover",
+                  background: "url(images/proj.png) center / cover",
                 }}
               >
-                Project Tracker
+                Project Arc
               </CardTitle>
               <CardText style={{ textAlign: "justify" }}>
-                Manage, track, and update all project details, and gain insight into how the project is progressing against your project plan with this project tracker
+                Manage, arc, and update all project details, and gain insight into how the project is progressing against your project plan with this project ARC
               </CardText>
               <CardActions border>
                 <Button
@@ -92,15 +104,15 @@ class Projects extends Component {
             <Card shadow={5} className="project-item">
               <CardTitle
                 style={{
-                  color: "#333",
+                  color: "#1400c6",
                   height: "180px",
-                  background: "url(images/calculator.png) center / cover",
+                  background: "url(images/projet3.png) center / cover",
                 }}
               >
-                Project Timesheet
+                Project MYGLAMM SHOP
               </CardTitle>
               <CardText style={{ textAlign: "justify" }}>
-                Track, allocate, and manage project resources with this timesheet template, which gives team members and stakeholders insight into who is working on what.
+                MYGLAMM, allocate,is a web store sitr and manage project resources with a different variety af products, which gives team members and stakeholders insight into who is working on what.
               </CardText>
               <CardActions border>
                 <Button
@@ -108,12 +120,12 @@ class Projects extends Component {
                   raised
                   ripple
                   primary
-                  onClick={this.calculator.bind(this)}
+                  onClick={this.calculator1.bind(this)}
                 >
                   <i className="fa fa-github" aria-hidden="true" /> Github
                 </Button>
-                <Button raised accent ripple style={{ margin: "0 10px" }}>
-                  <i className="fa fa-desktop" aria-hidden="true" /> Live Demo
+                <Button raised accent ripple onClick={this.calculator.bind(this)} style={{ margin: "0 10px" } }>
+                  <i className="fa fa-desktop" aria-hidden="true"   /> Live Demo
                 </Button>
               </CardActions>
               <CardMenu style={{ color: "#fff" }}>
@@ -126,13 +138,14 @@ class Projects extends Component {
                 style={{
                   color: "#333",
                   height: "180px",
-                  background: "url(images/portfolio.png) center / cover",
+                  background: "url(images/projet2.png) center / cover",
                 }}
               >
-                Project Risk
+                Portfolio
               </CardTitle>
               <CardText style={{ textAlign: "justify" }}>
-                Ensure you identify all projects risks, like scope creep and ill-defined dependencies, with this project risk
+              This is my first document or website that highlights my skills, abilities, and experience.
+               A portfolio contains a collection of your academic and personal projects
               </CardText>
               <CardActions border>
                 <Button
@@ -163,13 +176,13 @@ class Projects extends Component {
                 style={{
                   color: "#333",
                   height: "180px",
-                  background: "url(images/e-commerce.png) center / cover",
+                  background: "url(images/project4.png) center / cover",
                 }}
               >
-                E-Content Generation
+                Figma counter
               </CardTitle>
               <CardText style={{ textAlign: "justify" }}>
-                E-Content Generation
+                Fy first figma implementation Exercice
               </CardText>
               <CardActions border>
                 <Button
@@ -177,11 +190,11 @@ class Projects extends Component {
                   raised
                   ripple
                   primary
-                  onClick={this.ecommerce.bind(this)}
+                  onClick={this.figma.bind(this)}
                 >
                   <i className="fa fa-github" aria-hidden="true" /> Github
                 </Button>
-                <Button raised accent ripple style={{ margin: "0 10px" }}>
+                <Button raised accent ripple style={{ margin: "0 10px" }} onClick={this.ecommerce.bind(this)}>
                   <i className="fa fa-desktop" aria-hidden="true" /> Live Demo
                 </Button>
               </CardActions>
@@ -193,47 +206,15 @@ class Projects extends Component {
             <Card shadow={5} className="project-item">
               <CardTitle
                 style={{
-                  color: "#333",
+                  color: "#8458B3",
                   height: "180px",
-                  background: "url(images/leave-management.png) center / cover",
+                  background: "url(images/leavmagmnt.png) center / cover",
                 }}
               >
-                House for Sale
+               Quality Solicitors
               </CardTitle>
               <CardText style={{ textAlign: "justify" }}>
-                House for Sale
-              </CardText>
-              <CardActions border>
-                <Button
-                  style={{ margin: "0 10px" }}
-                  raised
-                  ripple
-                  primary
-                  onClick={this.leavemangement.bind(this)}
-                >
-                  <i className="fa fa-github" aria-hidden="true" /> Github
-                </Button>
-                <Button raised accent ripple style={{ margin: "0 10px" }}>
-                  <i className="fa fa-desktop" aria-hidden="true" /> Live Demo
-                </Button>
-              </CardActions>
-              <CardMenu style={{ color: "#fff" }}>
-                <IconButton name="share" />
-              </CardMenu>
-            </Card>
-            {/* Ecom-Application */}
-            <Card shadow={5} className="project-item">
-              <CardTitle
-                style={{
-                  color: "#333",
-                  height: "180px",
-                  background: "url(images/crud-app.png) center / cover",
-                }}
-              >
-                Creation of a Good Resume
-              </CardTitle>
-              <CardText style={{ textAlign: "justify" }}>
-                Creation of a Good Resume
+              Find a local QualitySolicitors branch
               </CardText>
               <CardActions border>
                 <Button
@@ -245,7 +226,39 @@ class Projects extends Component {
                 >
                   <i className="fa fa-github" aria-hidden="true" /> Github
                 </Button>
-                <Button raised accent ripple style={{ margin: "0 10px" }}>
+                <Button raised accent ripple onClick={this.leavemangement.bind(this)} style={{ margin: "0 10px" }}>
+                  <i className="fa fa-desktop" aria-hidden="true" /> Live Demo
+                </Button>
+              </CardActions>
+              <CardMenu style={{ color: "#fff" }}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+            {/* portfoliolive */}
+            <Card shadow={5} className="project-item">
+              <CardTitle
+                style={{
+                  color: "#333",
+                  height: "180px",
+                  background: "url(images/blog.png) center / cover",
+                }}
+              >
+                @Blog
+              </CardTitle>
+              <CardText style={{ textAlign: "justify" }}>
+              This blog explains everything you need to know about confusing Motability insurance rules.
+              </CardText>
+              <CardActions border>
+                <Button
+                  style={{ margin: "0 10px" }}
+                  raised
+                  ripple
+                  primary
+                  onClick={this.crudapplication.bind(this)} 
+                >
+                  <i className="fa fa-github" aria-hidden="true" /> Github
+                </Button>
+                <Button raised accent ripple style={{ margin: "0 10px" }} onClick={this.portfoliolive.bind(this)}>
                   <i className="fa fa-desktop" aria-hidden="true" /> Live Demo
                 </Button>
               </CardActions>
@@ -265,13 +278,13 @@ class Projects extends Component {
                 style={{
                   color: "#333",
                   height: "180px",
-                  background: "url(images/store-procedure.png) center / cover",
+                  background: "url(images/parteship.png) center / cover",
                 }}
               >
-                Sales and Inventory Management
+                Snake Game with C++
               </CardTitle>
               <CardText style={{ textAlign: "justify" }}>
-                Sales and Inventory Management
+                @devops practices
               </CardText>
               <CardActions border>
                 <Button style={{ margin: "0 10px" }} raised ripple primary>
@@ -296,13 +309,13 @@ class Projects extends Component {
                 style={{
                   color: "#333",
                   height: "180px",
-                  background: "url(images/facebook.jpg) center / cover",
+                  background: "url(images/gitdon.png) center / cover",
                 }}
               >
-                Outlook skills
+              Find all my projects  repositories here  
               </CardTitle>
               <CardText style={{ textAlign: "justify" }}>
-                Outlook
+                @donir125
               </CardText>
               <CardActions border>
                 <Button
@@ -336,10 +349,10 @@ class Projects extends Component {
           onChange={(tabId) => this.setState({ activeTab: tabId })}
           ripple
         >
-          <Tab>Ms Excel</Tab>
-          <Tab>Ms word</Tab>
-          <Tab>Ms Access</Tab>
-          <Tab>OutLook</Tab>
+          <Tab>My projectss</Tab>
+          <Tab> Collabortions </Tab>
+          <Tab>With partnership</Tab>
+          <Tab>Visit my Git account</Tab>
         </Tabs>
         <Grid>
           <Cell col={12}>

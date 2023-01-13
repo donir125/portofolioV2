@@ -4,16 +4,18 @@ import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
 class Contact extends Component {
   render() {
     return (
-      <div className="contact-body">
+      <div className="contact-body" id="a" >
+        
+      
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h2>Nihorimbere Belyse</h2>
-            <img style={{ height: '250px' }} src="images/DSC_5211-00.jpg" alt="avatar" />
+            <h2>Irakoze Don De Dieu</h2>
+            <img style={{ height: '250px' }} src="images/don4.jpg" alt="avatar" />
             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
-              I am Nihorimbere Belyse, experienced member of the healthcare  with skills in time management and interpersonal communication
-              I have extensive knowledge in filling prescriptions, reviewing medical history records and identifying potential drug interactions
-              I’m passionate about making people feel better by providing them with quality care through medication therapy management.
-              As a skilled pharmaceutical technician I offer my expertise to help patients get back on their feet after surgery or injury while still ensuring safety protocols are met.
+            Hi. I’m , nice to meet you. Please take a look around!
+            I am passionate about building excellent software that improves the lives of those around me.
+            I specialize in creating software for clients ranging from individuals and small-businesses all the way to large enterprise corporations.
+            What would you do if you had a software expert available at your fingertips?
             </p>
           </Cell>
           <Cell col={6}>
@@ -23,10 +25,19 @@ class Contact extends Component {
 
               <List>
                 <ListItem>
-                  <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton' }}><i className="fa fa-phone-square" aria-hidden='true'></i>+7 930 965-63-34</ListItemContent>
+                  <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton' }}><i className="fa fa-phone-square" aria-hidden='true'></i>+7 977 533-93-16</ListItemContent>
                 </ListItem>
                 <ListItem>
-                  <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton' }}><i className="fa fa-envelope" aria-hidden='true'></i>nihorimberebelyse2020@gmail.com</ListItemContent>
+                  <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton' }}><i className="fa fa-envelope" aria-hidden='true'></i><a href="mailto:donir23197@gmail.com">donir23197@gmail.com</a></ListItemContent>
+                </ListItem>
+                <ListItem>
+                  <ListItemContent  style={{ fontSize: '25px', fontFamily: 'Anton' }}><i className="fa fa-twitter" aria-hidden='true' ></i><a href="https://twitter.com/don_irakoze">@don_irakoze </a></ListItemContent>
+                </ListItem>
+                <ListItem>
+                  <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton' }}><i className="fa fa-instagram" aria-hidden='true'></i><a href="https://www.instagram.com/donsix_ambas/"> @donsix_ambas </a> </ListItemContent>
+                </ListItem>
+                <ListItem>
+                  <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton' }}><i className="fa fa-facebook" aria-hidden='true'></i> <a href="https://www.facebook.com/irakoze.dondedieu" > Donsix'ambas Irakoze</a>  </ListItemContent>
                 </ListItem>
               </List>
             </div>

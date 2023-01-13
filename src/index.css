@@ -12,3 +12,93 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.button1 {
+  color: gray;
+  text-transform: uppercase;
+  border: 1px solid rgba(20, 177, 96, 0.876);
+  padding: 18px 50px;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 3px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: all 0.3s ease-in 0s;
+
+
+}
+.button1:hover{
+  background:rgba(76, 182, 101, 0.857);
+  color:coral;
+}
+.profile-picture {
+  text-align: center;
+  margin: 0px auto 30px;
+  max-width: 500px;
+  max-height: 500px;
+
+}
+
+.button2 {
+  color: gray;
+  text-transform: uppercase;
+  border: 1px solid rgba(20, 177, 96, 0.876);
+  padding: 18px 50px;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 3px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: all 0.3s ease-in 0s;
+}
+.button2:hover{
+  background:rgb(53, 55, 53);
+  color:coral;
+}
+.button3 {
+  color: gray;
+  text-transform: uppercase;
+  border: 1px solid rgba(62, 87, 79, 0.876);
+  padding: 18px 50px;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 3px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: all 0.3s ease-in 0s;
+}
+.button3:hover{
+  background:rgb(66, 80, 56);
+  color:coral;
+}
+.button4 {
+  color: gray;
+  text-transform: uppercase;
+  border: 1px solid rgba(72, 50, 42, 0.876);
+  padding: 18px 50px;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 3px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: all 0.3s ease-in 0s;
+}
+.button4:hover{
+  background:rgba(61, 31, 62, 0.209);
+  color:coral;
+}
+.button5 {
+  color: gray;
+  text-transform: uppercase;
+  border: 1px solid rgba(72, 50, 42, 0.876);
+  padding: 18px 50px;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 3px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: all 0.3s ease-in 0s;
+}
+.button5:hover{
+  background:rgba(30, 96, 85, 0.209);
+  color:coral;
+}

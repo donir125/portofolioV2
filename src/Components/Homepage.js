@@ -7,20 +7,21 @@ class Homepage extends Component {
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="homepage-grid">
           <Cell col={12}>
+
             <div className="profile-img-border">
               <img
                 className="profile-img"
-                src="images/DSC_5211-00.jpg"
-                alt="Belyse"
+                src="images/don3.jpg"
+                alt="Ambass"
               />
             </div>
             <div className="banner-text">
-              <h1>--</h1>
-              <hr />
+              <h1> ******</h1>
+               <hr />
+               
               <p>
-                I am Nihorimbere Belyse , experienced member of the healthcare  with skills in time management and interpersonal communication
-                ; I have extensive knowledge in filling prescriptions, reviewing medical history records and identifying potential drug interactions
-           
+              Hello! My name is Irakoze Don and I enjoy creating things that live on the internet. My interest in web development 
+              started back in 2018 when I decided do a formation to be a web developer and  after that i try to editing custom Tumblr themes by my self — turns out hacking together a custom reblog button taught me a lot about HTML & CSS !
               </p>
         
             </div>
